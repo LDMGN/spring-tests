@@ -1,6 +1,5 @@
-package nl.lennertgijsen.springtest.controller.exception;
+package nl.lennertgijsen.springtest.exception;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 /**
@@ -12,7 +11,7 @@ public class ExceptionDTO {
     private final String message;
 
     public ExceptionDTO() {
-        applicationCode=null;
+        applicationCode = null;
         message = null;
     }
 
